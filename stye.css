@@ -68,13 +68,45 @@
         font-weight: 600;
         font-size: 15px;
     }
-
+    /*tap iq*/
     .EimantoreIQ {
       position: relative;
-      top: -20px;
+      top: 30px;
+      font-size: 15px;
     }
 
     .detailsiq {
       position: relative;
-      top: -130px;
+      top: -50px;
+    }
+
+    .tito-byiq  {
+      position: relative;
+      top: -100px;
+    }
+
+    .link-tito-iq {
+      position: relative;
+      padding: 10px 40px;
+      border-radius: 20px;
+      background: #000000;
+    }
+    /*tap RAM */
+    .EimantoreRAM {
+      position: relative;
+      top: -80px;
+    }
+    .aboot-RAM {
+      position: relative;
+      top: 50px;
+    }
+    .link-tito-ram {
+      position: relative;
+      padding: 10px 40px;
+      border-radius: 20px;
+      background: #000000;
+    }
+    .tito-ram {
+      position: relative;
+      top: 80px;
     }
