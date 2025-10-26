@@ -1,0 +1,80 @@
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      text-align: center;
+    }
+
+    /* 🧩 ปรับขนาดอัตโนมัติตามจอ */
+    @media (max-width: 768px) {
+      .card {
+        width: 45%;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .card {
+        width: 90%;
+      }
+    }
+
+    section.block {
+    min-height: calc(100vh - var(--nav-height));
+    height: 100vh;
+    box-sizing: border-box;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    }
+
+    #blockONE {
+        background: linear-gradient(120deg,#0000 0% ,#0000 100%);
+        background-attachment: fixed;
+    }
+    #blockTOW {
+        background: linear-gradient(120deg,#0000 0% ,#0000 100%);
+        background-attachment: fixed;
+    }
+    #blockTREE {
+        background: linear-gradient(120deg,#0000 0% ,#0000 100%);
+        background-attachment: fixed;
+    }
+
+    header {
+        position: sticky;
+        padding: 5px;
+        top: 0;
+        height: ver(--nav-height);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        backdrop-filter: blur(6px);
+        background: linear-gradient(to right, rgb(0,0,0,0.35),rgba(0,0,0,0.15));
+        z-index: 50;
+
+    }
+    nav {
+        position: sticky;
+        display: flex;
+        gap: 50px;
+    }
+    .nav-link {
+        position: sticky;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #000000;
+        background: rgba(255,0,0,0.06);
+        transition: transform .15s background .15s;
+        font-weight: 600;
+        font-size: 15px;
+    }
+
+    .EimantoreIQ {
+      position: relative;
+      top: -20px;
+    }
+
+    .detailsiq {
+      position: relative;
+      top: -130px;
+    }
