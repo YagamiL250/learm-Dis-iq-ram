@@ -1,0 +1,14 @@
+body {
+    background: white;
+    font-family: "Sarabun", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.paper {
+    padding: 300px 250px;
+    border-radius: 50px;
+    background: #000000;
+}
