@@ -8,7 +8,39 @@ body {
 }
 
 .paper {
-    padding: 200px 150px;
+    height: 500px;
+    width: 320px;
     border-radius: 50px;
-    background: #000000;
+    background: #FFE4B5;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.paper::-webkit-scrollbar{
+    width: 0px;
+}
+.paper::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 0, 0);
+    border-radius: 50px;
+}
+/*profile ที่อยู่ตรงคำ*/
+.profile {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+h1{
+    position: relative;
+    left: 70px;
+}
+p {
+    padding: 10px 25px;
+    font-size: 20px;
+}
+a {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    left: 120px;
+    background: white;
 }

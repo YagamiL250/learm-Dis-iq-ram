@@ -2,6 +2,7 @@
       margin: 0;
       font-family: sans-serif;
       text-align: center;
+      background: radial-gradient(#66FFFF, #9900FF	);
     }
 
     /* 🧩 ปรับขนาดอัตโนมัติตามจอ */
