@@ -93,21 +93,21 @@
       background: #000000;
     }
     /*tap RAM */
-    .EimantoreRAM {
+    .EimantoreARM {
       position: relative;
       top: -80px;
     }
-    .aboot-RAM {
+    .aboot-ARM {
       position: relative;
       top: 50px;
     }
-    .link-tito-ram {
+    .link-tito-arm {
       position: relative;
       padding: 10px 40px;
       border-radius: 20px;
       background: #000000;
     }
-    .tito-ram {
+    .tito-arm {
       position: relative;
       top: 80px;
     }
