@@ -3,7 +3,7 @@ const delayBeforeScrollUp = 1000;  //ตอนขึ้น
 
 window.onload= function () {
     setTimeout(() => {
-        document.getElementById("blockTREE").scrollIntoView({ behavior: "smooth"});        
+        document.getElementById("blockFOR").scrollIntoView({ behavior: "smooth"});        
     }, delayBeforeScrollDown);
 
     setTimeout(() => {
